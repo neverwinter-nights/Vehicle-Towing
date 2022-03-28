@@ -24,7 +24,7 @@ To stop towing vehicle B with vehicle A go to vehicle A and select the towing ac
 
 If you want to create a tow chain of three vehicles, A - B - C, you should first enable towing with vehicle A, then enable towing with vehicle B. 
 
-There is a limitation. For towing to work, distance between vehicles must be less than 20 meters. Note, however, that Arma game engine may calculate distance between objects as a distance between object centers. So, actual limitation may be a little bit more strict than 20 meters in real game.
+There is a limitation. For towing to work, distance between vehicles must be less than 25 meters. Note, however, that Arma game engine may calculate distance between objects as a distance between object centers. So, actual limitation may be a little bit more strict than 25 meters in real game.
 
 [h1]SOURCE CODE[/h1]
 
@@ -33,7 +33,7 @@ https://github.com/neverwinter-nights/Vehicle-Towing
 
 [h1]VERSION[/h1]
 
-0.3.
+0.4.
 
 [h1]RELEASE NOTES[/h1]
 
@@ -52,4 +52,10 @@ https://github.com/neverwinter-nights/Vehicle-Towing
 [Version 0.3]
 [list]
  [*] Release as a mod.
+[/list]
+
+[Version 0.4]
+[list]
+ [*] Bug fix. Player menu action is now recreated after player respawn.
+ [*] Vehicle search distance has been increased up to 25 meters.
 [/list]

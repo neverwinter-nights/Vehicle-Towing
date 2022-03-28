@@ -8,9 +8,10 @@
 MCA_vehKind_Aircraft = "Air";
 MCA_vehKind_Helicopter = "Helicopter";
 MCA_vehClassNamesToFind = ["LandVehicle", "Ship", "Air", "Helicopter"];
-MCA_vehSearchRadius = 20;
+MCA_vehSearchRadius = 25;
 MCA_vehVariableName_towMasterVeh = "mca_towMasterVeh";
 MCA_vehVariableName_towSlaveVeh = "mca_towSlaveVeh";
+MCA_towingToggleActionText = "Towing Toggle (On/Off)";
 
 // Functions.
 MCA_fn_getObjectDisplayName = compile preprocessFileLineNumbers "MCA_VehicleTowing\functions\MCA_fn_getObjectDisplayName.sqf";
