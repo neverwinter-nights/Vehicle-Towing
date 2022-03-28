@@ -1,0 +1,55 @@
+[h1]VEHICLE TOWING[/h1]
+
+This modification (or a mod) allows vehicles to tow other vehicles. Towing is enabled and disabled via the user action menu.
+
+Vehicle towing can be used in various combinations. This mod allows creation of tow chains. Land, air and water vehicles can be used with this mod. 
+
+Be advised that vehicle towing should be used accurately and very carefully. If the vehicle does not move, it appears to be too heavy to be towed. Do not use much force if the vehicle is stuck as it may break the tow rope. 
+
+When towing is enabled, towed vehicle is emptied, locked and its parking brakes are disabled. Switching towing off unlocks the vehicle and enables its parking brakes. Note that this mod is super simple, it does not use sophisticated menus, dialog windows or numerous actions. Towing is both enabled and disabled with the same player menu action. 
+
+There is one feature in this mod that is important to notice. If the tow rope breaks during the process of towing, the towed vehicle will be stuck locked. In this case one can simply use the towing menu action on the locked vehicle and it will get unlocked.
+
+This mod is a replacement for the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=639837898]Advanced Towing[/url] mod which now seems to be unsupported for long. 
+
+[h1]REQUIREMENTS[/h1]
+
+Parking brakes disabling has appeared in Arma 3 v2.08 update. So, this mod requires Arma 3 game version to be at least 2.08.
+
+[h1]USAGE[/h1]
+
+To start towing vehicle B with vehicle A go to vehicle A and select the towing action from player menu. Vehicle A now becomes a tow vehicle, a tractor, and vehicle B becomes a towed vehicle, a "cargo". 
+
+To stop towing vehicle B with vehicle A go to vehicle A and select the towing action from player menu. When done, rope between vehicle A and vehicle B will be removed and towing will be disabled. 
+
+If you want to create a tow chain of three vehicles, A - B - C, you should first enable towing with vehicle A, then enable towing with vehicle B. 
+
+There is a limitation. For towing to work, distance between vehicles must be less than 20 meters. Note, however, that Arma game engine may calculate distance between objects as a distance between object centers. So, actual limitation may be a little bit more strict than 20 meters in real game.
+
+[h1]SOURCE CODE[/h1]
+
+The source code is located at GitHub:
+https://github.com/neverwinter-nights/Vehicle-Towing
+
+[h1]VERSION[/h1]
+
+0.3.
+
+[h1]RELEASE NOTES[/h1]
+
+[Version 0.1]
+[list]
+ [*] Initial release as a separate script for public testing.
+[/list]
+
+[Version 0.2]
+[list]
+ [*] Scripts are put into a separate folder.
+ [*] A detailed usage instruction has been added.
+ [*] A protection against abandoned locked vehicles has been introduced.
+[/list]
+
+[Version 0.3]
+[list]
+ [*] Release as a mod.
+[/list]
