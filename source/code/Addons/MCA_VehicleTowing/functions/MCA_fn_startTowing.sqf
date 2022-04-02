@@ -36,10 +36,10 @@ ropeCreate
 [
     _tractor, _tractorHookPoint,
     _towedVehicle, _towedVehicleHookPoint,
-    _ropeLength // Length.
-    //ropeStart,
-    //ropeEnd,
-    //ropeType
+    _ropeLength,
+    ["", [0,0,-1]],
+    ["", [0,0,-1]],
+    MCA_ropeType
 ];
 
 // Enable towing. Disable parking brakes.

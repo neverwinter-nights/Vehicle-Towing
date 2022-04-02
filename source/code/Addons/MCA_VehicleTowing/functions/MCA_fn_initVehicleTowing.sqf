@@ -12,6 +12,7 @@ MCA_vehSearchRadius = 25;
 MCA_vehVariableName_towMasterVeh = "mca_towMasterVeh";
 MCA_vehVariableName_towSlaveVeh = "mca_towSlaveVeh";
 MCA_towingToggleActionText = "Towing Toggle (On/Off)";
+MCA_ropeType = "HardRope";
 
 // Functions.
 MCA_fn_getObjectDisplayName = compile preprocessFileLineNumbers "MCA_VehicleTowing\functions\MCA_fn_getObjectDisplayName.sqf";
